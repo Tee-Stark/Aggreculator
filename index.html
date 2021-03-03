@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>AGGRECULATOR</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="main.css">
+    </head>
+    <body>
+        <div class="header">
+            <h1>AGGRECULATOR</h1>
+        </div>
+            <p>Hey scholar! I'm Aggreculator.<br>
+        I'm here to help you calculate your UNILAG total aggregate score.</p>
+        <form name="candidateInfo">
+            <fieldset>
+                <legend>Your details</legend>
+                Enter your name:<br>
+                <input type="text" name="cname" placeholder="Your name" required><br>
+                Enter your UTME score:<br>
+                <input type="number" name="utmescore" min="1" max="400" placeholder="Your Utme score"><br>
+                Enter your UNILAG post UTME score:<br>
+                <input type="number" name="post-utmescore" min="0.00" max="30.00" step="0.75" placeholder="Your post-utme score"><br>
+                Enter your 5 core O'level subjects and grades:<br>
+                <table id="olevel">
+                    <tr>
+                        <th>SUBJECT</th>
+                        <th>GRADE</th>
+                    </tr>
+                </table>
+            </fieldset>
+            <div class="action">
+                <button type="submit" class="calculate">Aggregate</button>
+                <button type="reset" class="calculate">Clear</button>
+            </div>
+        </form>
+        <p class="hidden" id="candidateAggregate">Hi! <span id="candidateName"></span> your aggregate score is <span id="aggregatePts"></span></p>
+    </body>
+    <script type="text/javascript" src="aggreculate.js"></script>
+</html>
