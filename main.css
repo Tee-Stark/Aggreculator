@@ -4,7 +4,7 @@
 
 body {
     background-color: blanchedalmond;
-    background-image: url("../img/bg.jpg");
+    background-image: url("img/bg.jpg");
     background-attachment: fixed;
 }
 
@@ -26,10 +26,6 @@ p {
     color: goldenrod;
     font-size: 15px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-form {
-    overflow-y: scroll;
 }
 
 fieldset {
