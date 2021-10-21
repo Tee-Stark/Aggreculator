@@ -5,16 +5,24 @@
         <title>AGGRECULATOR</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="main.css">
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/         gtag/js?id=UA-210801835-2"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'UA-210801835-2');
+        </script>
     </head>
     <body>
         <div class="header">
             <h1>AGGRECULATOR</h1>
         </div>
-            <p>Hey scholar! I'm Aggreculator.<br>
-        I'm here to help you calculate your UNILAG total aggregate score.</p>
+        <p>👋 Hey scholar! I'm <b >Aggreculator</b>.<br>
+            I'm here to help you calculate your UNILAG total aggregate score. 😀</p>
         <form name="candidateInfo">
             <fieldset>
-                <legend>Your details</legend>
+                <p class="hidden" id="candidateAggregate">Hi! <span id="candidateName"></span> your aggregate score is <span id="aggregatePts"></span></p>
                 Enter your name:<br>
                 <input type="text" name="cname" placeholder="Your name" required><br>
                 Enter your UTME score:<br>
@@ -28,13 +36,14 @@
                         <th>GRADE</th>
                     </tr>
                 </table>
+                <div class="action">
+                    <button type="submit" class="calculate c1">Aggregate</button>
+                    <button type="reset" class="calculate c2">Clear</button>
+                </div>
             </fieldset>
-            <div class="action">
-                <button type="submit" class="calculate">Aggregate</button>
-                <button type="reset" class="calculate">Clear</button>
-            </div>
+            
         </form>
-        <p class="hidden" id="candidateAggregate">Hi! <span id="candidateName"></span> your aggregate score is <span id="aggregatePts"></span></p>
+       
     </body>
     <script type="text/javascript" src="aggreculate.js"></script>
 </html>
