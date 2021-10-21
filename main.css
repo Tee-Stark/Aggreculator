@@ -97,7 +97,7 @@ input[type=number]{
     -moz-appearance: textfield;
 }
 input:focus, input{
-    color: #eeeee !important;
+    color: white !important;
 }
 input[type=text], input[type=number]{
     width: 100%;
