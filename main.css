@@ -13,7 +13,7 @@ body {
 }
   
 
-body::before {    
+body::after {    
       content: "";
       background-image: url(./img/Motion-Background-Plexus-Moving-Animated-Lines-HD-Backdrop-GIF.gif);
       /*background-size: cover;*/
