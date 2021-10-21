@@ -84,7 +84,7 @@ fieldset {
 legend {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
-    color: rgb(255, 255, 255);
+    color: #eeeee;
 }
 
 input::-webkit-inner-spin-button,
@@ -97,14 +97,14 @@ input[type=number]{
     -moz-appearance: textfield;
 }
 input:focus, input{
-    color: black !important;
+    color: #eeeee !important;
 }
 input[type=text], input[type=number]{
     width: 100%;
     height: 3em;
     border-width: 0 0 1px 0;  
     background-color: transparent;
-    color: rgb(255, 255, 255);
+    color: white !important;
     padding: 3px 3px 2px 3px;
 }
 
@@ -137,7 +137,7 @@ table tr td input[list=subjects]{
     height: 3em;
     border-width: 0 0 1px 0;  
     background-color: transparent;
-    color: rgb(255, 255, 255);
+    color: #eeeee;
     padding: 3px 3px 2px 3px;
 }
 
@@ -211,7 +211,7 @@ form .c2:hover{
         padding: 15px;
     }
     body {
-        background-repeat: repeat;
+        background-repeat: no-repeat;
     }  
     
     #candidateAggregate {
@@ -232,7 +232,7 @@ form .c2:hover{
         padding: 15px;
     }
     body {
-        background-repeat: repeat;
+        background-repeat: no-repeat;
     }  
     
     #candidateAggregate {
