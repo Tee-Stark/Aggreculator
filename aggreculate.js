@@ -129,6 +129,8 @@ formElement.addEventListener('submit', (e)=>{
 
     const aggregateScore = document.getElementById('aggregatePts');
     aggregateScore.textContent = aggregate;
+    aggregateScore.style.fontSize = "30px";
+    aggregateScore.style.fontWeight = "bold";
     const aggregateSpace = document.getElementById('candidateAggregate');
     aggregateSpace.toggleAttribute("class");
 });
