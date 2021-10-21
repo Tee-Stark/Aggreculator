@@ -17,12 +17,12 @@ body::before {
       content: "";
       background-image: url(./img/Motion-Background-Plexus-Moving-Animated-Lines-HD-Backdrop-GIF.gif);
       /*background-size: cover;*/
-      position: absolute;
+      /*position: absolute;*/
       top: 0px;
       right: 0px;
       bottom: 0px;
       left: 0px;
-      opacity: 0.45;
+      opacity: 0.25;
 }
 .header {
    
