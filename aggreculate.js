@@ -7,7 +7,7 @@ const subjects = [
     "Agric science",
     "Book keeping",
     "Commerce",
-    "Econimics",
+    "Economics",
     "English",
     "Civic Education",
     "Chemistry",
