@@ -8,7 +8,7 @@ body {
     z-index: -1;
     /*box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);*/
     /*background-image: url(./img/Motion-Background-Plexus-Moving-Animated-Lines-HD-Backdrop-GIF.gif);*/
-    background-color: #faf9f2;
+    background-color: #04072e;
     /* background-attachment: fixed; */
 }
   
@@ -16,7 +16,7 @@ body {
 body::before {    
       content: "";
       background-image: url(./img/Motion-Background-Plexus-Moving-Animated-Lines-HD-Backdrop-GIF.gif);
-      background-size: cover;
+      /*background-size: cover;*/
       position: absolute;
       top: 0px;
       right: 0px;
