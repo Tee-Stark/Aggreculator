@@ -41,7 +41,6 @@ while(cnt < 5) {
     var rowElement = document.createElement('tr');     //a new row
     var subjectElement = document.createElement('td'); //a new row daughter for subjects
     var gradeElement = document.createElement('td');   //a new row daughter for grades
-    //gradeElement.textContent.style.color = "white";
 
     var gradeList = document.createElement('select');  //a select input type or subject grades
     gradeList.setAttribute('class','grades');
@@ -49,6 +48,7 @@ while(cnt < 5) {
     //push all grades from the grades array into the select input as options
     for(grade of grades){
         var optionElement = document.createElement('option')
+        //optionElement.style.color = "white";
         optionElement.textContent = grade;
         gradeList.appendChild(optionElement);
     };
@@ -73,6 +73,7 @@ while(cnt < 5) {
     //append both inputs to their parent nodes
     subjectElement.appendChild(subjectInput);
     gradeElement.appendChild(gradeList);
+    gradeElement.value.style.color = "white";
 
     //then append both daughters<td> to their parent row<tr>
     rowElement.appendChild(subjectElement);
