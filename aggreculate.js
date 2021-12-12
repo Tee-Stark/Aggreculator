@@ -41,7 +41,7 @@ while(cnt < 5) {
     var rowElement = document.createElement('tr');     //a new row
     var subjectElement = document.createElement('td'); //a new row daughter for subjects
     var gradeElement = document.createElement('td');   //a new row daughter for grades
-    gradeElement.style.color = "white";
+    gradeElement.textContent.style.color = "white";
 
     var gradeList = document.createElement('select');  //a select input type or subject grades
     gradeList.setAttribute('class','grades');
